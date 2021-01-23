@@ -1,29 +1,15 @@
-# Lab: Fun with Functions
+# LAB - Number
 
-## Problem Domain
+## Project Name
 
-Today in lab you will fork and clone a GitHub repo, and then create solutions to some code problems such that your solutions pass the included tests.
+I built an app with a direct and powerful purpose. My app does all of the things that it accomplishes well. Here  I describe the purpose and functionality so those that visit my README understand the app.
 
-## Instructions
+### Author: Student/Group Name
 
-You are being given starter code for today, in the `index.html` and `app.js` files inside of this directory. The success of your code will be determined by whether it passes tests that are in the `tests.js` file. You do not need to do anything with `tests.js`, though you should take a look at it to see how it works.
+### Links and Resources
+* [submission PR](http://xyz.com)
+* Any Links you used as reference
 
-Here are a couple of things to keep in mind:
-
-* Create a new branch for each code problem, and merge each branch into *master* on GitHub (and then pull back into master on your laptop!) when the problem is completed. Do the problems in order. Don't forget to pull the updated master branch from GitHub into your local master branch each time you merge a pull request, then make a new branch from master for the next problem.
-* Place no function calls in your code, unless inside of another function. Everything should be run by hand from the console. This is to give you additional practice using the console and practice efficient app-switching processes.
-
-* Although this is an individual lab assignment, do feel free to collaborate and work in pairs or groups.
-
-## Resources
-
-This lab will have starter code provided. Work with your instructor directly to gain access to this code.
-
-### Submission Instructions
-
-- Make sure your *master* branch is up to date with your most recent code.
-- Submit the link to your GitHub repo for this project
-- Add a comment to this Canvas submission with answers to the following questions
-  - How did this go, overall?
-  - What observations or questions do you have about what you've learned so far?
-  - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+### Reflections and Comments
+* Consider including the answers to your daily journal and submission questions here
+* This is also a good place to reflect on the tools and resources used and learned
