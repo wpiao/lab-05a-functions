@@ -114,6 +114,8 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
+
+// Forgot to create branch problem-five until I completed all work in the main branch.
 function multiplyArray(multArr) { //eslint-disable-line
   let product = 1;
   let message = 'The numbers ';
