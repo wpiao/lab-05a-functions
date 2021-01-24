@@ -158,10 +158,23 @@ Test this function by hand in the console to get it working, and when you think 
 let testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-
+  let product = 1;
+  let message = 'The numbers ';
+  for (let i = 0; i < dynamicArray.length; i++) {
+    let currentNumber = dynamicArray[i];
+    product = multiply(product, currentNumber)[0];
+    if (i !== dynamicArray.length - 1) { // if current number is not the last element in the array
+      message += `${currentNumber},`;
+    } else { // if current number is the last element in the array
+      message += `${currentNumber} `;
+    }
+  }
+  message += `have a product of ${product}.`;
+  // console.log([product, message]);
+  return [product, message];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyAnyArray(testDynamicArray);
+testMultiplyAnyArray(testDynamicArray); //eslint-disable-line
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
