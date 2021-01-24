@@ -115,11 +115,24 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+  let product = 1;
+  let message = 'The numbers ';
+  for (let i = 0; i < multArr.length; i++) {
+    let currentNumber = multArr[i];
+    product = multiply(product, currentNumber)[0];
+    if (i !== multArr.length - 1) { // if current number is not the last element in the array
+      message += `${currentNumber},`;
+    } else { // if current number is the last element in the array
+      message += `${currentNumber} `;
+    }
+  }
+  message += `have a product of ${product}.`;
+  // console.log([product, message]);
+  return [product, message];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray); //eslint-disable-line
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
