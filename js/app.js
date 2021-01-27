@@ -159,17 +159,11 @@ let testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
   let product = 1;
-  let message = 'The numbers ';
   for (let i = 0; i < dynamicArray.length; i++) {
     let currentNumber = dynamicArray[i];
     product = multiply(product, currentNumber)[0];
-    if (i !== dynamicArray.length - 1) { // if current number is not the last element in the array
-      message += `${currentNumber},`;
-    } else { // if current number is the last element in the array
-      message += `${currentNumber} `;
-    }
   }
-  message += `have a product of ${product}.`;
+  let message = `The numbers ${dynamicArray} have a product of ${product}.`;
   // console.log([product, message]);
   return [product, message];
 }
